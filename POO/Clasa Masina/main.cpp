@@ -63,15 +63,15 @@ public:
     }
 
     // Destructor
-    ~Masina() 
+    virtual ~Masina() 
     {
         delete[] numeMasina;
     }
 
     // Metodă pentru afișarea detaliilor mașinii
-    void afiseazaMasina() 
+    virtual void afiseazaMasina(ostream& out) const
     {
-        cout << "Nume: " << numeMasina << ", An: " << anFabricatieMasina << ", Pret: " << pretMasina << endl;
+        out << "Nume: " << numeMasina << ", An: " << anFabricatieMasina << ", Pret: " << pretMasina;
     }
     
     //Seters
@@ -109,9 +109,9 @@ public:
         return pretMasina;
     }
     
-    friend ostream& operator<<(ostream& out, const Masina& masina)
+    friend ostream& operator<<(ostream& out,const Masina& masina)
     {
-        out << "Nume: " << masina.numeMasina << ", An: " << masina.anFabricatieMasina << ", Pret: " << masina.pretMasina << endl;
+        masina.afiseazaMasina(out);
         return out;
     }
     
@@ -121,23 +121,27 @@ public:
     }
 };
 
-class 
+class MasinaElectrica: public Masina
+{
+private:
+    int autonomieMasina;
+    bool selfDrive;
+public:
+    MasinaElectrica() : Masina(), autonomieMasina(0), selfDrive(false){}
+    MasinaElectrica(const char* nume, int an, double pret, int autonomie, bool selfD) : Masina(nume,an,pret), autonomieMasina(autonomie), selfDrive(selfD){}
+    MasinaElectrica(const MasinaElectrica& masina) : Masina(masina), autonomieMasina(masina.autonomieMasina), selfDrive(masina.selfDrive){}
+    ~MasinaElectrica(){}
+    void afiseazaMasina(ostream& out) const override
+    {
+        Masina::afiseazaMasina(out);
+        out<<", Autonomie: "<<autonomieMasina<<", Self Drive: "<<selfDrive<<endl;
+    }
+};
 
 int Masina::numarMasini = 0;
 
 int main() {
-    // Utilizare constructor implicit
-    Masina masina1;
-    masina1.afiseazaMasina();
-
-    // Utilizare constructor parametrizat
-    Masina masina2("Dacia", 2020, 15000.0);
-    masina2.afiseazaMasina();
-
-    // Utilizare constructor de copiere
-    Masina masina3(masina2);
-    masina3.afiseazaMasina();
-    
-   cout<<Masina::getNumarMasini();
+    MasinaElectrica m1("Dacia", 2022, 15000, 200, false);
+    cout<<m1;
     return 0;
 }

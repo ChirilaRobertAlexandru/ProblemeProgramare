@@ -1,0 +1,19 @@
+Problemă 1: Biblioteca
+Creează o clasă Carte cu următoarele atribute private:
+
+char* titlu
+char* autor
+int anPublicatie
+double pret
+Clasele vor avea:
+
+Constructor implicit.
+Constructor parametrizat.
+Constructor de copiere.
+Destructor.
+Setters și getters pentru fiecare atribut.
+Suprascrierea operatorului << pentru afișare.
+Creează o clasă Biblioteca care va conține un vector dinamic de obiecte de tip Carte. Clasa va avea:
+
+Un atribut privat pentru a stoca numărul total de cărți.
+Metode pentru a adăuga, elimina și afișa cărțile din bibliotecă.

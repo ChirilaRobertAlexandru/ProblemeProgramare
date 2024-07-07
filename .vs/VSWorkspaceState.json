@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\POO",
+    "\\POO\\Clasa",
+    "\\POO\\Clasa Carte",
+    "\\POO\\Clasa Carte\\Carte",
     "\\POO\\Clasa Masina"
   ],
-  "SelectedNode": "\\POO",
+  "SelectedNode": "\\POO\\Clasa Carte\\Carte",
   "PreviewInSolutionExplorer": false
 }

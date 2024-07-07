@@ -1,0 +1,31 @@
+﻿Cerinţa
+Se citesc de la tastatură două numere naturale n și m cu exact două cifre fiecare.
+Dacă cele două numere au aceeași paritate (adică sunt ambele pare sau ambele impare), atunci să se calculeze suma cifrelor din cele două numere, iar în caz contrar, să se afișeze produsul cifrelor din cele două numere.
+
+Date de intrare
+Programul va citi de la tastatură două numere naturale n și m, având câte două cifre fiecare.
+
+Date de ieşire
+Programul va afişa pe ecran numărul cerut.
+
+Restricţii şi precizări
+n și m au exact 2 cifre fiecare
+Exemplul 1:
+Intrare
+
+32 80
+Ieşire
+
+13
+Explicație:
+Cele două numere au aceeași paritate, deci s-a calculat suma cifrelor din cele două numere, adică 3+2+8+0=13.
+
+Exemplul 2:
+Intrare
+
+32 81
+Ieşire
+
+48
+Explicație:
+Cele două numere au parități diferite, deci s-a calculat produsul cifrelor din cele două numere, adică 3*2*8*1=48.

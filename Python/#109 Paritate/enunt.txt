@@ -1,0 +1,19 @@
+Cerinþa
+Sã se scrie un program care citeºte de la tastaturã un numãr natural ºi verificã dacã numãrul este par sau impar.
+
+Date de intrare
+Programul va citi de la tastaturã un numãr natural n.
+
+Date de ieºire
+Programul va afiºa pe ecran mesajul n este par, dacã numãrul citit n este par, respectiv mesajul n este impar în caz contrar, ca în exemplu.
+
+Restricþii ºi precizãri
+0 < n < 1.000.000.000
+
+Exemplu
+Intrare
+
+2012
+Ieºire
+
+2012 este par

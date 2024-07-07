@@ -1,0 +1,20 @@
+Se dau 3 numere întregi.
+
+Cerinþa
+Calculaþi minimul celor 3 numere date.
+
+Date de intrare
+Programul citeºte de la tastaturã 3 numere întregi separate prin spaþii.
+
+Date de ieºire
+Programul va afiºa pe ecran cel mai mic dintre numerele citite.
+
+Restricþii ºi precizãri
+valoare absolutã a numerelor citite va fi mai micã decât 1.000.000.000
+Exemplu:
+Intrare
+
+125 68 200
+Ieºire
+
+68

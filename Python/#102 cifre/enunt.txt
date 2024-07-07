@@ -1,0 +1,20 @@
+﻿Cerința
+Într-o curte sunt câini, pisici și găini. Se știe că numărul de pisici este egal cu dublul numărului de câini, iar numărul de găini este egal cu dublul numărului de pisici. Dacă în curte sunt C câini, câte animale sunt în curte?
+
+Date de intrare
+Programul citește de la tastatură numărul natural C.
+
+Date de ieșire
+Programul va afișa pe ecran numărul total de animale din curte.
+
+Restricții și precizări
+2 ≤ C ≤ 1000
+Exemplu:
+Intrare
+
+3
+Ieșire
+
+21
+Explicație
+Sunt 3 câini, 6 pisici și 12 găini, în total 21 de animale.

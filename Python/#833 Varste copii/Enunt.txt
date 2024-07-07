@@ -1,0 +1,20 @@
+﻿Cerința
+Fiind date vârstele a doi copii (a și b) afișați care dintre ei este cel mai mare și cu cât.
+
+Date de intrare
+Programul citește de la tastatură vârstele celor 2 copii.
+
+Date de ieșire
+Programul va calcula diferența de vârstă x și va afișa pe ecran Primul copil este mai mare cu x ani dacă primul copil are cea mai mare vârstă, Al doilea copil este mai mare cu x ani dacă al doilea copil este cel mai în vârstă sau Copiii au varste egale dacă x=0.
+
+Restricții și precizări
+1 ≤ a,b ≤ 100
+Exemplu:
+Intrare
+
+5 8
+Ieșire
+
+Al doilea copil este mai mare cu 3 ani
+Explicație
+S-au citit vârstele celor 2 copii(5 și 8). Deoarece al doilea copil e mai mare cu 3 ani decât primul se afișează Al doilea copil este mai mare cu 3 ani.

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "#832 Nota", "#832 Nota\#832 Nota.pyproj", "{4E47F7CC-CFA9-4AF5-9568-F4DD9E7DB42B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E47F7CC-CFA9-4AF5-9568-F4DD9E7DB42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E47F7CC-CFA9-4AF5-9568-F4DD9E7DB42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B29CF1-5F8C-4D02-8C3B-A672EAA0836F}
+	EndGlobalSection
+EndGlobal

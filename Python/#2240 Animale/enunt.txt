@@ -1,0 +1,18 @@
+Cerinþa
+Sã se scrie un program care citeºte de la tastaturã un numãr natural cu cel puþin douã cifre ºi determinã suma dintre cifra zecilor ºi cifra unitãþilor numãrului citit.
+
+Date de intrare
+Programul va citi de la tastaturã un numãr natural n.
+
+Date de ieºire
+Programul va afiºa pe ecran un numãr s, reprezentând suma dintre cifra zecilor ºi cea a unitãþilor numãrului n.
+
+Restricþii ºi precizãri
+9 < n < 1.000.000.000
+Exemplu:
+Intrare
+
+2012
+Ieºire
+
+3

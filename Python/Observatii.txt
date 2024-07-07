@@ -1,0 +1,109 @@
+﻿CITIRE DATE
+	->In Python, poți citi un număr de la tastatură folosind funcția input().
+		Această funcție va citi totul ca un șir de caractere (string), astfel că este necesar să convertești acest șir la tipul de date numeric dorit, cum ar fi int sau float.
+		EXEMPLU:
+				numar = int(input("Introduceți un număr: ")) //citeste un numar de tip int
+	->Citire multipla:
+		a, b = map(int, input().split())
+		// map face conversia implicita int fiecarui element din lista
+		// .split() imparte șirul citit într-o listă de cuvinte folosind separatorul implicit (spațiu).
+
+
+AFISARE DATE
+	->In Python, funcția print() este folosită pentru a afișa rezultate sau mesaje în consola programului. 
+	  Aceasta este una dintre cele mai simple și frecvent utilizate funcții în Python pentru output-ul textului.
+	  EXEMPLE:
+			  1. print("Hello, world!") // afiseaza text simplu
+
+			  2.nume = "Alice"
+				varsta = 30
+				print("Nume:", nume, "Varsta:", varsta) //combinatie string + int
+				
+				// Atentie!
+				// Cand avem o combinatie de text si o valoare numerica trebuie folosita virgula.
+				//Insa pentru afisarea mai multor texte se poate folosi si operatorul plus
+				//Exemplu:
+				//		  a = "Ana"
+				//		  b = "are"
+				//		  c = "mere"
+				//		  print( a + b + c ) //rezultat: Ana are mere
+
+
+
+OPERATII SI EXPRESII
+	->Se pastreaza aceeasi prioritate a operatorilor
+	->Un caz special il reprezinta n/10 care datorita faptului ca Python prioritizeaza tipul de date pe care il considera necesar nu va elimina ultima cifra ci va afisa un rezultat de tip float, ex: 23/10=2.3
+
+
+STRUCTURA DECIZIONALA
+	->sintaxa:
+
+			if conditie1:
+				instructiune1
+			elif: conditie2
+				instructiune2
+			elif: conditie3
+				instructiune3
+			...............
+			else:
+				instructiuneN
+	->Observatie!!!
+	->Nu exista acolade in atasarea mai multor instructiuni asupra unei conditii ci se tine cont de un TAB
+	->Varianta scurta:
+			instructiune1 if conditie1 else instructiune2 if conditie2 else instructiune3
+	->
+
+
+DIVERSE
+	->	Comentariile: 1. Comentariu simplu
+
+							# This is a comment
+
+					  2. Comentariu multiplu
+							
+							"""
+							Bla bla bla
+							Bla bla bla
+							Bla bla bla
+							"""
+	
+	-> Pentru a vedea tipul unei date:
+		x = 12
+		print(type(x)) // <class 'int'>
+	
+	-> Atribuire multipla de valori:
+		x, y, z = "Orange", "Banana", "Cherry"
+
+	-> Atribuirea aceleiasi valori mai multor variabile
+		x = y = z ="Portocala"
+
+	-> Unpack a Collection
+		fruits = ["apple", "banana", "cherry"]
+		x, y, z = fruits
+
+	-> x**y reprezinta exponentialul
+
+	-> // reprezinta impartirea intreaga  ex: 5//3 = 1 
+
+	-> Operatori logici:
+				1. and
+				2. or
+				3. not
+
+	-> Operatori de identitate:
+				1. is
+				2. is not
+				Exemplu:
+						x = ["apple", "banana"]
+						y = ["apple", "banana"]
+						z = x
+
+						print(x is z)	#True , pentru ca z este acelasi obiect ca si x
+						print(x is y)	#False , desi au aceleasi elemente x si y sunt obiecte diferite
+						print(x == y)	#True , == verifica daca x si y au aceleasi elemente
+	-> Operatori de apartenenta:
+				1. in
+				2. not in
+				Exemplu:
+						x = ["apple", "banana"]
+						print("banana" in x)	#True, pentru ca banana este in x

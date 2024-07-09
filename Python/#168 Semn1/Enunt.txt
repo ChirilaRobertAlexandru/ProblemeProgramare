@@ -1,0 +1,19 @@
+Cerinþa
+Sã se scrie un program care citeºte de la tastaturã douã numere întregi a ºi b ºi verificã dacã cele doua numere au acelaºi semn.
+
+Date de intrare
+Programul va citi de la tastaturã douã numere întregi a ºi b.
+
+Date de ieºire
+Programul va afiºa pe ecran mesajul da dacã cele douã numere au acelaºi semn, respectiv nu dacã cele douã numere au semne contrare.
+
+Restricþii ºi precizãri
+ -1.000.000.000 < a,b < 1.000.000.000 
+a ºi b sunt nenule
+Exemplu:
+Intrare
+
+-3 14
+Ieºire
+
+nu

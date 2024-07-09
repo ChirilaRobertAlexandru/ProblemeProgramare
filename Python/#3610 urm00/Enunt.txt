@@ -1,0 +1,25 @@
+﻿Cerința
+Se dă un număr natural nenul n. Să se determine cel mai mic număr natural, mai mare sau egal decât n, care are ultimele două cifre egale cu 0.
+
+Date de intrare
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+Programul va afișa pe ecran numărul natural mai mare sau egal decât n, care are ultimele două cifre egale cu 0.
+
+Restricții și precizări
+1 ≤ n ≤ 999.999.999
+Exemplul 1:
+Intrare
+
+3476
+Ieșire
+
+3500
+Exemplul 2:
+Intrare
+
+4500
+Ieșire
+
+4500

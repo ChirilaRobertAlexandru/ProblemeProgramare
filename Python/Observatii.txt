@@ -107,3 +107,48 @@ DIVERSE
 				Exemplu:
 						x = ["apple", "banana"]
 						print("banana" in x)	#True, pentru ca banana este in x
+
+MANIPULAREA FISIERELOR
+	->Funcția cheie pentru lucrul cu fișiere în Python este funcția open()
+	->Funcția open() ia doi parametri; numele fișierului și modul de prelucrare a fisierului
+	->Există patru metode (moduri) diferite pentru deschiderea unui fișier:
+		"r"- Citire - Valoare implicită. Deschide un fișier pentru citire, eroare dacă fișierul nu există
+
+		"a"- Adăugați - Deschide un fișier pentru atașare, creează fișierul dacă nu există
+
+		"w"- Scriere - Deschide un fișier pentru scriere, creează fișierul dacă nu există
+
+		"x"- Create - Creează fișierul specificat, returnează o eroare dacă fișierul există
+	-> Pentru a citi un fisier avem urmatorul cod:
+		
+		f = open(r'nume_fisier', 'r')
+		print(f.read())
+
+	-> Pentru a citi primele N caractere:
+
+		f = open(r'nume_fisier', 'r')
+		print(f.read(N))
+
+	-> Pentru a citi o linie:
+
+		print(f.readline())
+
+	-> Pentru a inclide fisierul:
+		
+		f.close()
+
+	-> Pentru a scrie o linie la un text:
+
+		f = open(r'nume_fisier', 'a')
+		f.write("bla bla bla")
+
+	-> Pentru a suprascrie un fisier:
+
+		f = open(r'nume_fisier', 'w')
+		f.write("bla bla bla")
+
+	-> Pentru a crea un fisier:
+		
+		1. 'x' - va crea un fisier sau returneaza o eroare daca fisierul exista
+		2. 'a' - va crea un fisier daca fisierul nu exista
+		3. 'w' - va crea un fisier daca fisirul specificat nu exista

@@ -1,0 +1,20 @@
+Se dau 2 numere întregi.
+
+Cerinþa
+Calculaþi maximul celor 2 numere date.
+
+Date de intrare
+Fiºierul de intrare maxim.in conþine pe prima linie 2 numere întregi separate prin spaþii.
+
+Date de ieºire
+Fiºierul de ieºire maxim.out va conþine pe prima linie numãrul max, reprezentând maximul numerelor din fiºierul de intrare.
+
+Restricþii ºi precizãri
+valoare absolutã a numerelor din fiºierul de intrare va fi mai micã decât 1.000.000.000
+Exemplu:
+maxim.in
+
+125 68
+maxim.out
+
+125

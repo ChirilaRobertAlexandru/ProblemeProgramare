@@ -1,0 +1,25 @@
+﻿Cerinţa
+Se citește de la tastatură un număr natural de 3 cifre. Să se stabilească dacă are toate cifrele egale.
+
+Date de intrare
+Programul va citi de la tastatură un număr natural cu exact 3 cifre.
+
+Date de ieşire
+Programul va afișa mesajul da sau mesajul nu, după cum are sau nu are toate cifrele egale.
+
+Restricţii şi precizări
+Numărul citit este cuprins între 100 și 999, inclusiv.
+Exemplul 1
+Intrare
+
+333
+Ieșire
+
+da
+Exemplul 1
+Intrare
+
+323
+Ieșire
+
+nu

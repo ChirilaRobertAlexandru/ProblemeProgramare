@@ -1,0 +1,29 @@
+﻿Ionuț este pasionat de numere. Într-o zi , Ionuț a găsit o foaie și, pornind de la cifra 9, a construit un șir S de numere naturale nenule ai cărui primi termeni sunt:
+9 19 39 49 69 79 99 109 129 139 159...............
+
+În altă zi, pornind de la cifra 7, a construit șirul
+7 17 37 47 67 77 97 107 127 137 157...............
+
+În altă zi, Ionuț a construit același șir pornind de la cifra P.
+
+Cerința
+Scrieți un algoritm care determină, pornind de la cifra P, cel de-al K-lea termen al sirului S.
+
+Date de intrare
+Se citesc de la tastatură P și K cu semnificația din enunț.
+
+Date de ieșire
+Programul va afișa pe ecran un număr natural reprezentând cel de-al K-lea termen al șirului S.
+
+Restricții și precizări
+1 ≤ P ≤ 9
+2 ≤ K ≤ 109
+Exemplu:
+Intrare
+
+9 10
+Ieșire
+
+139
+Explicație
+Șirul generat este 9 19 39 49 69 79 99 109 129 139 159. Al 10-lea termen este 139

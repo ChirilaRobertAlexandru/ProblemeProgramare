@@ -1,0 +1,18 @@
+﻿Cerinţa
+Să se scrie un program care verifică dacă un număr natural citit de la tastatură este pătrat perfect.
+
+Date de intrare
+Programul citește de la tastatură numărul natural n.
+
+Date de ieşire
+Programul afișează pe ecran mesajul da, dacă n este pătrat perfect, respectiv nu în caz contrar.
+
+Restricţii şi precizări
+n < 2.000.000.000
+Exemplu:
+Intrare
+
+25
+Ieșire
+
+da

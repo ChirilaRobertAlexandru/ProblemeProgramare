@@ -1,0 +1,32 @@
+﻿Se dau două mulțimi de numere naturale care au doar numere naturale consecutive. Deci putem să definim fiecare din cele două mulțimi prin capetele lor. De exemplu, mulțimea {6,7,8,9,10,11,12} poate fi dată doar prin capetele 6 și 12.
+
+Cerința
+Dându-se două mulțimi de numere naturale consecutive prin capetele lor, să se determine intersecția lor.
+
+Date de intrare
+Programul citește de la tastatură numerele a, b, c și d, unde a ≤ b și c ≤ d. Numerele a și b reprezintă capetele primei mulțimi, iar c și d reprezintă capetele celei de-a doua mulțimi.
+
+Date de ieșire
+Programul va afișa pe ecran, separate printr-un spațiu, două numere x și y, reprezentând capetele intersecției celor două mulțimi. Dacă cele două mulțimi nu se intersectează, atunci x și y vor fi egale cu -1.
+
+Restricții și precizări
+1 ≤ a, b, c, d ≤ 1.000.000
+Exemplul 1:
+Intrare
+
+2 11 8 15
+Ieșire
+
+8 11
+Explicație
+Prima mulțime are capetele 2 și 11, deci este mulțimea {2,3,4,5,6,7,8,9,10,11}. A doua mulțime are capetele 8 și 15, deci este mulțimea {8,9,10,11,12,13,14,15}. Intersecția lor este mulțimea {8,9,10,11}, deci afișăm capetele 8 și 11.
+
+Exemplul 2:
+Intrare
+
+22 111 200 300
+Ieșire
+
+-1 -1
+Explicație
+Mulțimile {22,23,24, ..., 111} și {200, 201, 202, ..., 300} nu au elemente comune, deci afișăm doi de -1.

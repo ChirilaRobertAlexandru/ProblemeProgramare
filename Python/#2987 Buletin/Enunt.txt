@@ -1,0 +1,29 @@
+﻿Cerința
+Se dă un număr natural n cu exact 13 cifre reprezentând un cod numeric personal. Să se afișeze anul, luna și ziua nașterii deținătorului.
+
+Date de intrare
+Programul citește de la tastatură numărul natural n, reprezentând codul.
+
+Date de ieșire
+Programul va afișa pe ecran numărul A, reprezentând anul nașterii, L, reprezentând luna nașterii și Z, reprezentând ziua nașterii, separate prin spații.
+
+Restricții și precizări
+n este un număr natural cu exact 13 cifre;
+A, L, Z, vor fi afișate sub forma AA LL ZZ.
+Dacă unul dintre numere x este de o cifră, se va afișa sub forma 0x.
+Structura și definiția codului numeric personal poate fi gasita aici.
+Exemplu:
+Intrare
+
+5070521071145
+Ieșire
+
+07 05 21
+Intrare
+
+2961103042367
+Ieșire
+
+96 11 03
+Explicație
+Deținătorul primului CNP are data nașterii 21 mai, 2007, iar deținătorul celui de-al doilea CNP are data nașterii 3 noiembrie, 1996.

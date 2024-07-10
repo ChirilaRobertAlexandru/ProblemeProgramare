@@ -152,3 +152,45 @@ MANIPULAREA FISIERELOR
 		1. 'x' - va crea un fisier sau returneaza o eroare daca fisierul exista
 		2. 'a' - va crea un fisier daca fisierul nu exista
 		3. 'w' - va crea un fisier daca fisirul specificat nu exista
+
+STRINGURI
+	->Șirurile din python sunt înconjurate fie de ghilimele simple, fie de ghilimele duble.
+	->Slicing - poti returna un interval dintr-un sir:
+		Exemplu:
+				1. b = "Hello, World!"
+				   print(b[2:5])	#llo
+				
+				2. print(b[:5])		#Hello
+
+				3. print(b[2:])		#llo, World!
+
+				4. print(b[-5:-2])	#orl
+	->Modify:
+				1. upper() - print(b.upper())
+
+				2. lower() - print(b.lower())
+
+				3. strip() - print(b.strip()) - elimina spatiile de la inceput si de la final
+
+				4. replace() - print(b.replace("H", "J")) - inlocuieste litera H cu J
+
+				5. split() - a = b.split(",") - ii atribuie lui a o lista formata din elementele lui b
+
+	-> Concatenarea:
+					1. Se poate realiza prin operatia +
+							Exemplu: a = "Hello"
+									 b = "World"
+									 c = a + b
+	-> 
+
+FUNCTII MATEMATICE
+	-> min() , max()
+	-> abs()
+	-> pow(x, y)
+	-> Functii cu module:
+		1. import math
+			Exemplu:
+					 a. math.sqrt()
+					 b. math.ceil() - rotunjeste prin adaos (ex: 1.4 -> 2)
+					 c. math.floor() - rotunjeste prin lipsa (ex: 1.4 -> 1)
+					 d. math.pi

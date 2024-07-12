@@ -194,3 +194,15 @@ FUNCTII MATEMATICE
 					 b. math.ceil() - rotunjeste prin adaos (ex: 1.4 -> 2)
 					 c. math.floor() - rotunjeste prin lipsa (ex: 1.4 -> 1)
 					 d. math.pi
+
+DIVERSE
+	-> Pentru a afisa un sir de numere pe acelasi rand avem:
+			n = int(input())
+			# Citim un n de la tastatura
+			x = list(range(1, n+1))
+			# creem o lista de numere de la 1 la n
+			print(" ".join(map(str,x)))
+			#Prin map(..., ...) transformam fiecare element din lista in str
+			#.join() leaga elementele intre ele cu cate un spatiu
+	!Obs! Pentru un sir descrescator avem:
+			x = list(range(n, 0, -1))

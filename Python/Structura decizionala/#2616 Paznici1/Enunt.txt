@@ -1,0 +1,26 @@
+﻿Un parc de formă dreptunghiulară este împărțit în n * m sectoare, dispuse pe n linii și m coloane. Între oricare două sectoare învecinate, precum și pe exteriorul parcului sunt alei, ca în imaginea următoare (sectoarele sunt colorate cu verde, aleele cu gri):
+
+
+
+Administrația parcului hotărăște angajarea unor paznici. Fiecare paznic va ocupa o poziție fixă pe o alee și va supraveghea sectoarele învecinate, ca mai jos. Astfel, un paznic poate supraveghea unul, două sau patru sectoare.
+
+
+
+Cerința
+Scrieți un program care citește n și m și determină numărul minim de paznici care trebuie angajați pentru a supraveghea parcul în aceste condiții.
+
+Date de intrare
+Programul citește de la tastatură numerele naturale nenule n m.
+
+Date de ieșire
+Programul va afișa pe ecran numărul P, reprezentând valoarea cerută.
+
+Restricții și precizări
+1 ≤ n, m ≤ 1 000 000
+Exemplu:
+Intrare
+
+2 2
+Ieșire
+
+1

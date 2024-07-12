@@ -1,0 +1,18 @@
+﻿Cerinţa
+Se dă un număr natural n. Afișați în ordine crescătoare primele n numere naturale nenule.
+
+Date de intrare
+Programul citește de la tastatură numărul n.
+
+Date de ieşire
+Programul afișează pe ecran în ordine crescătoare primele n numere naturale nenule, separate prin exact un spațiu.
+
+Restricţii şi precizări
+1 ≤ n ≤ 100
+Exemplu:
+Date de intrare
+
+5
+Date de ieșire
+
+1 2 3 4 5

@@ -1,0 +1,1 @@
+1. atribuirea a 2 variabile simultat e x, y = 1, 8. Se poate si x, y = 0 ca o echivalenta a x, y = 0, 0

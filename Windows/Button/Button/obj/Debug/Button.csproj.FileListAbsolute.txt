@@ -1,0 +1,10 @@
+C:\Users\alexc\source\repos\Button\Button\bin\Debug\Button.exe.config
+C:\Users\alexc\source\repos\Button\Button\bin\Debug\Button.exe
+C:\Users\alexc\source\repos\Button\Button\bin\Debug\Button.pdb
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.csproj.AssemblyReference.cache
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.Form1.resources
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.Properties.Resources.resources
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.csproj.GenerateResource.cache
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.csproj.CoreCompileInputs.cache
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.exe
+C:\Users\alexc\source\repos\Button\Button\obj\Debug\Button.pdb

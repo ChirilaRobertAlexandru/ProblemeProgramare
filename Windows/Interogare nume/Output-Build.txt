@@ -1,0 +1,6 @@
+﻿Build started at 9:43 PM...
+1>------ Build started: Project: WinFormsApp1, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>WinFormsApp1 -> C:\Users\alexc\Desktop\ProblemeProgramare\Windows\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 9:43 PM and took 00.345 seconds ==========

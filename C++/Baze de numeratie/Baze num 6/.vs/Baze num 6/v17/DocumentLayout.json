@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze num 6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2F61C2-7931-4728-B5DA-E3D413F43730}|Baze num 6\\Baze num 6.vcxproj|C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze num 6\\Baze num 6\\Baze num 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB2F61C2-7931-4728-B5DA-E3D413F43730}|Baze num 6\\Baze num 6.vcxproj|solutionrelative:Baze num 6\\Baze num 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Baze num 6.cpp",
+              "DocumentMoniker": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze num 6\\Baze num 6\\Baze num 6.cpp",
+              "RelativeDocumentMoniker": "Baze num 6\\Baze num 6.cpp",
+              "ToolTip": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze num 6\\Baze num 6\\Baze num 6.cpp",
+              "RelativeToolTip": "Baze num 6\\Baze num 6.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T08:14:25.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

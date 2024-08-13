@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze de num 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{055BA7CF-3055-4FEA-B3EA-919E6365080A}|Baze de num 3\\Baze de num 3.vcxproj|C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze de num 3\\Baze de num 3\\Baze de num 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{055BA7CF-3055-4FEA-B3EA-919E6365080A}|Baze de num 3\\Baze de num 3.vcxproj|solutionrelative:Baze de num 3\\Baze de num 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Baze de num 3.cpp",
+              "DocumentMoniker": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze de num 3\\Baze de num 3\\Baze de num 3.cpp",
+              "RelativeDocumentMoniker": "Baze de num 3\\Baze de num 3.cpp",
+              "ToolTip": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\C\u002B\u002B\\Baze de numeratie\\Baze de num 3\\Baze de num 3\\Baze de num 3.cpp",
+              "RelativeToolTip": "Baze de num 3\\Baze de num 3.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-04T19:00:09.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

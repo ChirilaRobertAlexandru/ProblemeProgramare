@@ -1,0 +1,10 @@
+C:\Users\alexc\source\repos\To do list\To do list\bin\Debug\To do list.exe.config
+C:\Users\alexc\source\repos\To do list\To do list\bin\Debug\To do list.exe
+C:\Users\alexc\source\repos\To do list\To do list\bin\Debug\To do list.pdb
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To do list.csproj.AssemblyReference.cache
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To_do_list.Form1.resources
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To_do_list.Properties.Resources.resources
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To do list.csproj.GenerateResource.cache
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To do list.csproj.CoreCompileInputs.cache
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To do list.exe
+C:\Users\alexc\source\repos\To do list\To do list\obj\Debug\To do list.pdb

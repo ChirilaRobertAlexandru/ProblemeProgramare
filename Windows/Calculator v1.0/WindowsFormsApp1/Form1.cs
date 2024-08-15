@@ -138,9 +138,12 @@ namespace WindowsFormsApp1
                         else
                         { 
                             result = 0;
-                        Display.Text = Convert.ToString(result);
+                            Display.Text = Convert.ToString(result);
                         }
                     }
+            first = "";
+            second = "";
+            userInput = "";
         }
 
         private void plusButton_Click(object sender, EventArgs e)
@@ -153,16 +156,22 @@ namespace WindowsFormsApp1
         private void minusButton_Click(object sender, EventArgs e)
         {
             function = '-';
+            first = userInput;
+            userInput = "";
         }
 
         private void multipliButton_Click(object sender, EventArgs e)
         {
             function = '*';
+            first = userInput;
+            userInput = "";
         }
 
         private void divideButton_Click(object sender, EventArgs e)
         {
             function = '/';
+            first = userInput;
+            userInput = "";
         }
 
         private void clearButton_Click(object sender, EventArgs e)

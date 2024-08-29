@@ -1,0 +1,140 @@
+
+/***********************************************************************
+*                                                                      *
+* OnbotJava Editor is still : beta! Please inform us of any bugs       |
+* on our discord channel! https://discord.gg/e7nVjMM                   *
+* Only BLOCKS code is submitted when in Arena                          *
+*                                                                      *
+***********************************************************************/
+
+
+public class MyFIRSTJavaOpMode extends LinearOpMode {
+    DcMotor motorLeft;
+    DcMotor motorRight;
+    DcMotor frontLeft;
+    DcMotor frontRight;
+    ColorSensor color1;
+    DistanceSensor distance1;
+    BNO055IMU imu;
+
+@Override
+    public void runOpMode() {
+        
+	// Inițializează obiectul motorLeft prin maparea sa la motorul fizic corespunzător definit în configurația hardware a robotului.
+        // "motorLeft" trebuie să fie numele exact folosit în configurația hardware.
+        motorLeft = hardwareMap.get(DcMotor.class, "motorLeft");
+
+        // Inițializează obiectul motorRight prin maparea sa la motorul fizic corespunzător definit în configurația hardware a robotului.
+        // "motorRight" este numele motorului din configurația hardware.
+        motorRight = hardwareMap.get(DcMotor.class, "motorRight");
+
+        // Inițializează obiectul frontLeft prin maparea sa la motorul fizic din fața stângă, definit în configurația hardware a robotului.
+        // "frontLeft" trebuie să corespundă numelui din configurația hardware.
+        frontLeft = hardwareMap.get(DcMotor.class, "frontLeft");
+
+        // Inițializează obiectul frontRight prin maparea sa la motorul fizic din fața dreaptă, definit în configurația hardware a robotului.
+        // Asigură-te că "frontRight" corespunde numelui din configurația hardware.
+        frontRight = hardwareMap.get(DcMotor.class, "frontRight");
+
+        // Inițializează senzorul de culoare color1, prin maparea sa la senzorul fizic corespunzător definit în configurația hardware.
+        // "color1" trebuie să fie numele exact folosit în configurația hardware pentru senzorul de culoare.
+        color1 = hardwareMap.get(ColorSensor.class, "color1");
+
+        // Inițializează senzorul de distanță distance1, prin maparea sa la senzorul fizic corespunzător definit în configurația hardware.
+        // "distance1" este numele senzorului de distanță folosit în configurația hardware.
+        distance1 = hardwareMap.get(DistanceSensor.class, "distance1");
+
+        // Inițializează unitatea de măsură inerțială (IMU) prin maparea sa la senzorul fizic corespunzător definit în configurația hardware a robotului.
+        // "imu" este numele utilizat în configurația hardware pentru acest senzor.
+        imu = hardwareMap.get(BNO055IMU.class, "imu");
+        
+    
+
+        /*
+      
+         SF   O++++++O  DF
+              +      +
+              +      +
+              +      +
+              +      +
+         SS   O++++++O  DS
+      
+        */
+      
+        // Setează direcția motorului din spate stânga (motorLeft) să fie inversă față de direcția standard.
+        // Aceasta este necesară pentru a compensa orientarea fizică a motorului, astfel încât toate motoarele să lucreze în armonie
+        // și robotul să se deplaseze corect înainte și înapoi.
+        motorLeft.setDirection(DcMotor.Direction.REVERSE);
+
+        // Setează direcția motorului din față stânga (frontLeft) să fie inversă față de direcția standard.
+        // Aceasta este necesară pentru a se asigura că rotația acestor motoare este sincronizată cu motoarele de pe partea dreaptă,
+        // permițând robotului să se deplaseze corect înainte și înapoi.
+        frontLeft.setDirection(DcMotor.Direction.REVERSE);
+
+      
+       int red = color1.red();
+       int green = color1.green();
+       int blue = color1.blue();
+       double distance = distance1.getDistance(DistanceUnit.CM);
+      
+      //asteapta pana cand butonul de start este apasat 
+      waitForStart();
+     
+
+            // Afișează valorile pe driver station
+            telemetry.addData("Red", red);
+            telemetry.addData("Green", green);
+            telemetry.addData("Blue", blue);
+ 	    telemetry.addData("Distance (cm)", distance);
+            telemetry.update();
+        
+      
+    }
+    
+    // Funcție pentru a merge înainte
+    public void moveForward( double power)
+    {
+        motorLeft.setPower(power);
+        motorRight.setPower(power);
+        frontLeft.setPower(power); 
+        frontRight.setPower(power); 
+    }
+    
+    // Funcție pentru a merge înapoi
+    public void moveBackward( double power)
+    {
+        motorLeft.setPower(-power);
+        motorRight.setPower(-power);
+        frontLeft.setPower(-power); 
+        frontRight.setPower(-power); 
+    }
+    
+    // Funcție pentru rotire la stânga
+    public void rotateLeft(double power) 
+    {
+        motorLeft.setPower(-power);
+        motorRight.setPower(power);
+        frontLeft.setPower(-power);
+        frontRight.setPower(power);
+    }
+    
+    // Funcție pentru rotire la dreapta
+    public void rotateRight(double power) 
+    {
+        motorLeft.setPower(power);
+        motorRight.setPower(-power);
+        frontLeft.setPower(power);
+        frontRight.setPower(-power);
+    }
+    
+    public void stopMove() 
+    {
+        motorLeft.setPower(0);
+        motorRight.setPower(0);
+        frontLeft.setPower(0);
+        frontRight.setPower(0);
+    }
+    
+
+        
+}

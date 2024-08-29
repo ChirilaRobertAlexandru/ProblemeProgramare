@@ -1,0 +1,32 @@
+TCRT5000 este un senzor optic de tip infraroșu (IR) utilizat frecvent în aplicații de detecție a obiectelor sau a liniilor. 
+Acesta combină un LED cu infraroșu și un fototranzistor într-o singură carcasă, permițând astfel detectarea unor obiecte sau suprafețe în apropiere.
+
+Principiul de funcționare
+	1.LED-ul IR emite un fascicul de lumină infraroșie.
+	2.Fototranzistorul detectează lumina IR reflectată de un obiect aflat în apropiere.
+
+Construcția Senzorului TCRT5000
+	LED-ul Infraroșu (IR): Este un diodă emițătoare de lumină care emite radiație în spectrul infraroșu (800-1100 nm). Aceasta este invizibilă ochiului uman, dar poate fi detectată de fototranzistor.
+
+	Fototranzistorul: Este un senzor de lumină sensibil la radiația IR emisă de LED. Fototranzistorul are rolul de a detecta lumina IR reflectată de obiecte sau suprafețe. Intensitatea curentului prin fototranzistor variază în funcție de intensitatea luminii primite.
+
+	Carcasă comună: Ambele componente sunt integrate într-o carcasă neagră, care ajută la minimizarea interferențelor din lumină ambientală și îmbunătățește precizia măsurătorilor.
+
+	Distanta de detecție: Senzorul TCRT5000 este proiectat să funcționeze la distanțe foarte mici, tipic între 1 mm și 25 mm, în funcție de suprafața obiectului detectat și de parametrii electrici setați.
+
+Specificații Tehnice
+	Tensiune de alimentare: 5V (de obicei), dar poate funcționa și la 3.3V în unele aplicații.
+	Curent consumat: În jur de 10-20 mA pentru LED-ul IR.
+	Curent de ieșire: Depinde de intensitatea luminii reflectate, dar tipic este de ordinul microamperilor în circuitul fototranzistorului.
+	Unghiul de vizualizare: Aproximativ 15-25 de grade, ceea ce îi permite să fie destul de precis în detecția obiectelor mici sau a marginilor bine definite.
+Principiul de Funcționare
+ -Senzorul funcționează pe principiul reflexiei luminii infraroșii:
+
+	Suprafețe reflectorizante (cum ar fi cele albe sau metalice): Reflectă mai multă lumină IR, ceea ce determină fototranzistorul să conducă mai mult curent. Acest lucru poate fi interpretat ca un semnal "activ".
+	Suprafețe non-reflectorizante (cum ar fi cele negre sau mate): Reflectă mai puțină lumină IR, astfel că fototranzistorul conduce mai puțin curent. Aceasta este de obicei interpretată ca un semnal "inactiv".
+Aplicații Practice
+	Detecția Liniilor: În roboți care urmează trasee predefinite, senzorul este utilizat pentru a detecta o linie contrastantă (de exemplu, o linie neagră pe un fundal alb). Senzorul este montat aproape de sol, iar când trece deasupra liniei, intensitatea luminii reflectate scade, semnalizând astfel prezența liniei.
+
+	Contorizare: În benzi transportoare sau alte mecanisme de automatizare, senzorul poate fi utilizat pentru a număra obiectele care trec pe lângă el, detectând schimbarea de reflexie dintre obiect și fundal.
+
+	Detectarea Obstacolelor: În sistemele robotice simple, TCRT5000 poate fi folosit pentru a detecta prezența unui obstacol în fața robotului, care reflectă lumina IR emisă de LED.

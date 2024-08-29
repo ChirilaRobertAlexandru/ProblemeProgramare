@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\alexc\\desktop\\problemeprogramare\\windows\\calculator v1.0\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\alexc\\desktop\\problemeprogramare\\windows\\calculator v1.0\\windowsformsapp1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\alexc\\desktop\\problemeprogramare\\windows\\calculator v1.0\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\alexc\\desktop\\problemeprogramare\\windows\\calculator v1.0\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13494DB2-3C28-4CD7-9308-2561567F0FCC}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
@@ -41,13 +45,25 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\WindowsFormsApp1\\Form1.resx",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.resx",
+              "ToolTip": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\WindowsFormsApp1\\Form1.resx",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-23T20:57:53.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\alexc\\Desktop\\ProblemeProgramare\\Windows\\Calculator v1.0\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAqwJEAAAAbAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAIwAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T16:50:09.008Z",
               "EditorCaption": ""
